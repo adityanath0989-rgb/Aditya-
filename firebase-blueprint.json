@@ -1,0 +1,57 @@
+{
+  "entities": {
+    "users": {
+      "userId": "string",
+      "email": "string",
+      "name": "string",
+      "createdAt": "timestamp"
+    },
+    "documents": {
+      "id": "string",
+      "userId": "string",
+      "title": "string",
+      "content": "string",
+      "language": "string",
+      "category": "string",
+      "genre": "string",
+      "wordCount": "number",
+      "characterCount": "number",
+      "readingTimeMins": "number",
+      "isFavorite": "boolean",
+      "isArchived": "boolean",
+      "createdAt": "timestamp",
+      "updatedAt": "timestamp"
+    },
+    "books": {
+      "id": "string",
+      "userId": "string",
+      "title": "string",
+      "description": "string",
+      "language": "string",
+      "genre": "string",
+      "targetWordCount": "number",
+      "currentWordCount": "number",
+      "createdAt": "timestamp",
+      "updatedAt": "timestamp"
+    },
+    "chapters": {
+      "id": "string",
+      "bookId": "string",
+      "userId": "string",
+      "title": "string",
+      "content": "string",
+      "chapterNumber": "number",
+      "wordCount": "number",
+      "createdAt": "timestamp"
+    },
+    "characters": {
+      "id": "string",
+      "bookId": "string",
+      "userId": "string",
+      "name": "string",
+      "role": "string",
+      "description": "string",
+      "traits": "string"
+    }
+  }
+}
